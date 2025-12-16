@@ -1,1 +1,69 @@
-/* Add styles here */
+
+:root {
+    --primary-color: #FFCA28; /* Firebase Yellow */
+    --secondary-color: #FFA000; /* Firebase Amber */
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: var(--dark-color);
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.hero {
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+section {
+    padding: 2rem 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#features .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: var(--light-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.feature-card h3 {
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--dark-color);
+    color: var(--light-color);
+}
