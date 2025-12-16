@@ -18,7 +18,7 @@ Cílem tohoto projektu je vytvořit jednoduchou, moderní a vizuálně přitažl
 2.  **Sekce "Co je Firebase?"**: Stručné vysvětlení platformy.
 3.  **Sekce "Klíčové vlastnosti"**: Přehled funkcí Firebase formou karet ve vánočním designu.
 4.  **Sekce "Proč Firebase v EdTechu?"**: Výhody použití Firebase.
-5.  **Patička**: Základní informace.
+5.  **Patička**: Základní informace a odkaz na IDX.
 
 ### Vánoční Design
 - **Barevná paleta**: Červená, zelená, zlatá, bílá a tmavě šedá.
@@ -28,7 +28,4 @@ Cílem tohoto projektu je vytvořit jednoduchou, moderní a vizuálně přitažl
 
 ## Aktuální Plán
 
-1.  **Aktualizovat `blueprint.md`**: Přidat informace o vánočním designu (právě probíhá).
-2.  **Upravit `style.css`**: Změnit barevnou paletu a styly na vánoční.
-3.  **Upravit `index.html`**: Přidat kontejner pro efekt sněžení.
-4.  **Upravit `main.js`**: Implementovat logiku pro animaci padajícího sněhu.
+- Přidat odkaz na IDX do patičky.
